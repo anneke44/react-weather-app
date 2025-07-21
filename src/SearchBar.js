@@ -48,7 +48,7 @@ export default function SearchBar() {
     return (
       <div>
         {form}
-        <div>
+        <div className="WeatherInfo">
           <div> {weather.city} </div>
           <div> {Math.round(weather.temperature)}°C </div>
           <div> {Math.round(weather.wind)}km/h </div>
