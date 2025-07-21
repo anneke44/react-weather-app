@@ -49,11 +49,11 @@ export default function SearchBar() {
       <div>
         {form}
         <div className="WeatherInfo">
-          <div> {weather.city} </div>
-          <div> {Math.round(weather.temperature)}°C </div>
-          <div> {Math.round(weather.wind)}km/h </div>
-          <div> {weather.humidity}% </div>
-          <div> {weather.description} </div>
+          <div> City: {weather.city} </div>
+          <div> Temperature: {Math.round(weather.temperature)}°C </div>
+          <div> Wind Speed: {Math.round(weather.wind)}km/h </div>
+          <div> Humidity: {weather.humidity}% </div>
+          <div> Description: {weather.description} </div>
           <div>
             <img src={weather.icon} alt={weather.description} />
           </div>
