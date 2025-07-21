@@ -3,6 +3,10 @@ form {
   justify-content: center;
   margin: 50px auto;
 }
+h1 {
+  text-align: center;
+  color: lightblue;
+}
 .App {
   border: 1px solid black;
   width: 400px;

@@ -32,6 +32,7 @@ export default function SearchBar() {
 
   let form = (
     <div className="SearchBar mt-4">
+      <h1>Weather App</h1>
       <form action="search" onSubmit={handleSubmit}>
         <input
           type="search"
